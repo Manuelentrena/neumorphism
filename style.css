@@ -1,0 +1,87 @@
+.body__neu {
+  background-color: #2174f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #c7c7c7;
+}
+
+.div__ext {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 20px;
+  width: 500px;
+  height: 150px;
+  border-radius: 25px;
+  background: linear-gradient(225deg, #237cff, #1e68df);
+  box-shadow: -10px 10px 20px #164fa9, 10px -10px 20px #2c99ff;
+}
+
+.div__ext:hover {
+  cursor: pointer;
+  background: #2174f8;
+  box-shadow: inset -10px 10px 20px #164fa9, inset 10px -10px 20px #2c99ff;
+}
+
+.div__ext__hover {
+  cursor: pointer;
+  background: #2174f8;
+  box-shadow: inset -10px 10px 20px #164fa9, inset 10px -10px 20px #2c99ff;
+}
+
+.div_int {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  background: #2174f8;
+  box-shadow: inset -10px 10px 41px #1a5dc6, inset 10px -10px 41px #288bff;
+}
+
+.div__ext:hover .div_int {
+  background: linear-gradient(225deg, #237cff, #1e68df);
+  box-shadow: -10px 10px 41px #154a9f, 10px -10px 41px #2d9eff;
+}
+.div__int__hover {
+  background: linear-gradient(225deg, #237cff, #1e68df);
+  box-shadow: -10px 10px 41px #154a9f, 10px -10px 41px #2d9eff;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.font {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 25px;
+  margin-left: 25px;
+  color: #fed169;
+}
+
+.check {
+  width: 40px;
+  height: 40px;
+  margin-left: 25px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
